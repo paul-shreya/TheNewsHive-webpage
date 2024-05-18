@@ -1,0 +1,352 @@
+@font-face {
+    font-family: Prata;
+    src: url("Prata-Regular.ttf");
+}
+body{
+    background-image:url("bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.container1{
+    color: rgb(255, 254, 255);
+    background-image:url("h1bg.png");
+    
+   
+}
+h1{
+    font-family: Prata;
+    text-shadow: 3px 3px 15px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right:0px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 70px;
+    background-size: 50ch;
+    font-size: (0.7)em;
+}
+#alia{
+    
+    margin-top: 20px;
+    height: 400px;
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+#amazon{
+    margin-top: 50px;
+    height: 190px;
+    width:  230px;
+    margin-left: 20px;
+    border-radius: 20px;   
+}
+
+
+#cocoa{
+    margin-top: 260px;
+    height: 190px;
+    width:  230px;
+    margin-left:20px;
+    border-radius: 20px;  
+
+    
+}
+
+.container{
+    background-image:url("papers.co-so80-blur-gradation-pastel-fog-40-wallpaper.jpg");
+    background-size: 200ch;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(4, 0, 0);
+    padding: 0%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.date{
+    margin-right: 40px;
+    padding-left: 400px;
+}
+nav li{
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    text-indent: 30px;
+    color: aliceblue;
+    background-size: 2ch;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+li:hover{
+    color: #000203;
+    transform: scale(1.5);
+    text-decoration:none;
+
+}
+li:active{
+    color: #000203;
+    transform: scale(1.5);  
+    text-decoration:none; 
+}
+li:visited{
+    color: aliceblue;
+    text-decoration:none;
+     
+}
+
+li a{
+    color: aliceblue;
+    text-decoration:none;
+}
+.link{
+    color: rgb(0, 4, 7);
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container input[type="text"] {
+    padding:15px;
+    border: 3px solid #020202;
+    border-radius: 20px;
+    outline: none;
+   margin-left:620px;
+    
+  }
+  
+  .search-container button{
+    padding: 17.5px 17.5px;
+    border:#060000;
+    background-color: #6d69f5;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    content:"Go";
+    margin-left: 5px;
+  }
+  
+  .search-container button:hover {
+    background: #000203;
+  }
+  .fa {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.box1{
+  position:absolute;
+ float: left;
+}
+
+  .box1 img{
+    margin-top: 10px;
+    height: 400px;
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 20px;
+    display: block;
+    float: inline-start;
+  }
+  .overlay1 a{
+    position:absolute;
+    color: aliceblue;
+    bottom:40px;
+    left: 40px;
+    right: 10px;
+    font-family: Prata;
+    font-size: larger;
+    text-indent: 2px;
+  }
+  .b1{
+    position: absolute;
+    padding:8px;
+    background-color: #3f2394;
+    border-radius: 30px;
+    bottom: 130px;
+    left: 60px;
+    color: aliceblue;
+    font-family: sans-serif;
+   }
+.b2{
+    position: absolute;
+    padding:8px;
+    background-color: #3f2394;
+    border-radius: 30px;
+    bottom: 130px;
+    left: 160px;
+    color: aliceblue;
+    font-family: sans-serif;
+  }
+.box2{
+    position:absolute;
+    float: left;
+    margin-left: 430px;   
+}
+
+.box2 img{
+    margin-top: 20px;
+    height: 400px;
+    width: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+    float: inline-start;
+    
+}  
+.box3{
+    position:relative;
+    float: left;
+    margin-left: 700px;  
+    margin-top:0px;
+    translate: +10px -30px;
+} 
+.box3 img{
+    margin-top: 0px;
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+    float: inline-start;  
+} 
+.overlay2 a{
+    position:absolute;
+    color: aliceblue;
+    bottom:10px;
+    left: 60px;
+    font-family: Prata;
+    
+  }
+  .b3{
+    position: absolute;
+    padding:4px;
+    background-color: #3f2394;
+    border-radius: 30px;
+    bottom: 150px;
+    left: 40px;
+    color: aliceblue;
+    font-family: sans-serif;
+  }
+  .b4{
+    position: absolute;
+    padding:4px;
+    background-color: #3f2394;
+    border-radius: 30px;
+    bottom: 150px;
+    left: 150px;
+    color: aliceblue;
+    font-family: sans-serif;
+  }
+  .box4{
+    position:relative;
+    float: left;
+    margin-left: 430px;
+    translate: +280px -270px;
+  }
+  .box4 img{
+    margin-top: 0px;
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+    float: inline-start;
+  }
+    .overlay2 a{
+        position:absolute;
+        color: aliceblue;
+        bottom:10px;
+        left: 60px;
+        font-family: Prata; 
+    } 
+    .toggle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:11vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        margin-left: 10px;
+    }
+    .toggle-switch {
+        position: relative;
+        width: 500px;
+        height: 50px;
+    }
+    
+    .toggle-checkbox {
+        display: none;
+    }
+    
+    .toggle-label {
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #ccc;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .toggle-text {
+        flex: 1;
+        text-align: center;
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+    }
+    
+    .toggle-button {
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        width: 250px;
+        height: 46px;
+        background-color:white;
+        border-radius:15px;
+        transition: transform 0.3s ease;
+        bac
+    }
+    
+    .toggle-checkbox:checked + .toggle-label {
+        background-color: #6c70cc;
+      
+    }
+    
+    .toggle-checkbox:checked + .toggle-label .toggle-button {
+        transform: translateX(246px);
+     
+    }
+ s1{
+    height: 80h;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    translate: 50px;
+ }
+ .card{
+    background-color: #dcd9ea;
+    box-shadow: 0 0 0.600em;
+    border-radius: 4px;;
+    display: flex;
+    height: 100px;
+    width:500px;
+    translate: 40px;
+ }
+ .card_hero{
+    flex: 0 0 35%;
+    position: relative;
+    overflow-wrap: break-word;
+
+ }
+ .card_img{
+    display: block;
+    width: 150px;
+    height:100px;
+ }
+ s2{
+    height: 220vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    translate:50px;
+ }
+
